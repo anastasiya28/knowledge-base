@@ -141,12 +141,3 @@ name = "victor", password = "victor".
 `/api/tag/article/{id}` - возвращает перечень тегов, которые относятся к определенной статье, по
 заданному идентификатору статьи (id).
 
-
-"# knowledge_base" 
-"# knowledge_base" 
-"# knowledge_base" 
-"# knowledge_base" 
-"# knowledge_base" 
-"# knowledge_base" 
-"# knowledge_base" 
-"# knowledge-base" 
