@@ -1,0 +1,55 @@
+<div id="articleList">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h4><i>Вы действительно хотите удалить статью?</i></h4>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <input type="hidden" id="sectionId" type="text" name="sectionId" class="form-control" placeholder="Идентификатор раздела" readonly>
+            <!--<input id="sectionId" type="text" name="sectionId" class="form-control" placeholder="Идентификатор раздела"-->
+                   <!--readonly>-->
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div id="errorMessage"></div>
+            <br>
+            <div>Название раздела:</div>
+            <input id="sectionName" type="text" name="sectionName" class="form-control" placeholder="Название раздела"
+                   readonly>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div>Заголовок статьи:</div>
+            <input id="articleTitle" type="text" name="articleTitle" class="form-control"
+                   placeholder="Заголовок статьи" readonly>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4">
+            <button id="deleteArticleButton" type="submit" class="btn btn-primary btn-sm btn-block">Да</button>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <button id="cancelDeleteArticleButton" type="submit" class="btn btn-sm btn-block">Нет</button>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</div>
+
+
+<!--input:invalid {border-color: red;}-->
+<!--input:valid {border-color: green;}-->
